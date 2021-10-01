@@ -1,0 +1,44 @@
+
+.header {
+    padding-bottom: 15px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    margin-left:auto;
+}
+
+
+.nav__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__item {
+    padding: 16px;
+}
+
+.nav__link {
+    display: inline-block;
+    font-family: 'Barlow';
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color:  #83888F;
+   
+
+     &:hover{
+     color: #333D4B;
+     }
+
+     &:active {
+    color: #333D4B;
+     }
+
+}
+

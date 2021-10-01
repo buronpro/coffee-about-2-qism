@@ -1,0 +1,28 @@
+.hero .container {
+    padding: 115px 85px;
+    background-image: url("../img/coffe.about.png");
+    background-size: 1290px 450px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.hero__item {
+    max-width: 445px;
+}
+
+.hero__heading {   
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #FEFCF7;
+}
+
+.hero__desc{
+font-family:'Barlow';
+font-style: normal;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+}

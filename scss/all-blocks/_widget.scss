@@ -1,0 +1,89 @@
+.widget {
+    padding-top: 100px;
+}
+
+.widget__heading { 
+ margin: 0;   
+ padding-bottom: 75px;   
+padding-left: 100px;
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+}
+
+.widget__info {
+  display: flex;  
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  padding-left: 100px;
+}
+
+.widget__list {
+   position: relative; 
+   padding-right: 90px;
+   padding-top: 100px;
+   background-position: 0px;
+}
+
+
+.widget__h {
+    
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+}
+
+.sublist__item {
+font-family: 'Barlow';
+font-style: normal;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+}
+
+.subitem__link {
+ color: #333D4B;  
+}
+
+.widget__list:nth-child(1)::before {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 41px;
+    height: 49px;
+    background-image: url("../../img/uk.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+
+.widget__list:nth-child(2)::before {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 41px;
+    height: 49px;
+    background-image: url("../../img/canada.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+
+.widget__list:nth-child(3)::before {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 41px;
+    height: 49px;
+    background-image: url("../../img/australia.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}

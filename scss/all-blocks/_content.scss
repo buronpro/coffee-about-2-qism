@@ -1,0 +1,37 @@
+.content {
+    padding-top: 90px;
+}
+
+
+.content .container {
+    padding: 115px 100px;
+    background-image: url('../img/coffee.ikki.png');
+    background-size: 445px 520px;
+    background-repeat: no-repeat;
+    background-position: 60px;
+
+}
+
+.content__item {
+    margin-left: auto;
+    width: 540px;
+    height: 340px;
+}
+
+.content__heading {
+font-family: 'Fraunces' ;
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #333D4B;
+}
+
+.content__desc {
+font-family: 'Barlow';
+font-style: normal;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+opacity: 0.8;
+}
